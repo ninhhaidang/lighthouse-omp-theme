@@ -1,4 +1,4 @@
-# 🔦 Lighthouse Oh My Posh Theme
+# Lighthouse Oh My Posh Theme
 
 > **English** | [Tiếng Việt](#tiếng-việt)
 
@@ -164,7 +164,7 @@ _If you like this theme, please consider giving it a ⭐ star!_
 
 # Tiếng Việt
 
-# 🔦 Lighthouse Oh My Posh Theme
+# Lighthouse Oh My Posh Theme
 
 > Theme Oh My Posh gọn gàng và thanh lịch cho các nhà phát triển - Lighthouse của Ninh Hải Đăng
 
