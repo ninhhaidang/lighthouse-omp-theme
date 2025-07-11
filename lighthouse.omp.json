@@ -69,8 +69,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue77f ",
           "type": "dotnet"
         },
@@ -80,8 +79,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue626 ",
           "type": "go"
         },
@@ -91,8 +89,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue235 ",
           "type": "python"
         },
@@ -102,8 +99,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue7a8 ",
           "type": "rust"
         },
@@ -113,8 +109,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue718 ",
           "type": "node"
         },
@@ -125,8 +120,7 @@
             "command": "tsc",
             "args": ["--version"]
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue628 ",
           "type": "command"
         },
@@ -136,8 +130,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue256 ",
           "type": "java"
         },
@@ -148,8 +141,7 @@
             "command": "gcc",
             "args": ["--version"]
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue61d ",
           "type": "command"
         },
@@ -159,8 +151,7 @@
           "properties": {
             "fetch_version": false
           },
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "style": "plain",
           "template": " \ue73d ",
           "type": "php"
         },
@@ -190,6 +181,13 @@
           "style": "plain",
           "template": " {{ .FormattedMs }} ",
           "type": "executiontime"
+        },
+        {
+          "background": "#ff5b7e",
+          "foreground": "#ffffff",
+          "style": "plain",
+          "template": " \ue73c {{ .Env.CONDA_DEFAULT_ENV }} ",
+          "type": "text"
         },
         {
           "background": "#ffffff",
