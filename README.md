@@ -57,6 +57,14 @@ The theme consists of three main blocks:
 - [Oh My Posh](https://ohmyposh.dev/docs/installation/windows) installed on your system
 - A [Nerd Font](https://www.nerdfonts.com/) for proper icon display
 
+### Setup Environment (Optional)
+
+If you're using conda, disable the default environment prompt to avoid conflicts with Oh My Posh:
+
+```bash
+conda config --set changeps1 False
+```
+
 ### Quick Install
 
 1. Download the theme file:
@@ -220,6 +228,14 @@ Theme gồm ba khối chính:
 
 - [Oh My Posh](https://ohmyposh.dev/docs/installation/windows) đã được cài đặt
 - [Nerd Font](https://www.nerdfonts.com/) để hiển thị biểu tượng đúng cách
+
+### Thiết lập môi trường (Tùy chọn)
+
+Nếu bạn đang sử dụng conda, hãy tắt prompt môi trường mặc định để tránh xung đột với Oh My Posh:
+
+```bash
+conda config --set changeps1 False
+```
 
 ### Cài đặt nhanh
 
